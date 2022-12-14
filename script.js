@@ -18,3 +18,8 @@ document.querySelector("#yellow").addEventListener("click", function(e){
     let color = e.target.id
     body.style.backgroundColor = color
 })
+
+document.querySelector("#pink").addEventListener("click", function(e){
+    let color = e.target.id
+    body.style.backgroundColor = color
+})
